@@ -4,7 +4,8 @@
 
 namespace aht20 {
 
+extern double tp, rh;
 void setup();
-uint8_t read(double &, double &);
+void loop();
 
-}; // namespace aht20
+} // namespace aht20
